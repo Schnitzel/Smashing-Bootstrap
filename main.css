@@ -1,0 +1,205 @@
+body
+{
+  background:#F5F4EF url(http://media.smashingmagazine.com/wp-content/uploads/images/smashing-html5/files/images/bg.png)
+}
+
+a:link,a:visited
+{
+  color:#C74350;
+  text-decoration:underline
+}
+
+a:hover,a:active
+{
+  background-color:#C74350;
+  color:#fff;
+  text-decoration:none;
+  text-shadow:1px 1px 1px #333
+}
+
+h1 a:hover,h1 a:active
+{
+  background:none;
+  color:#C74350;
+  text-shadow:none
+}
+
+h1 a:link,h1 a:visited
+{
+  color:#000305;
+  display:block;
+  font-weight:700;
+  margin:0 0 .6em;
+  text-decoration:none
+}
+
+h1 strong
+{
+  font-size:.36em;
+  font-weight:400;
+  display:block
+}
+
+#banner nav ul
+{
+  background:#000305;
+  font-size:1.143em;
+  line-height:30px;
+  padding:0;
+  text-align:center;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  list-style:none
+}
+
+#banner nav a:link,#banner nav a:visited
+{
+  color:#fff;
+  display:block;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-decoration:none
+}
+
+#banner nav a:hover,#banner nav a:active,#banner nav .active a:link,#banner nav .active a:visited,#banner nav li.active
+{
+  background:#C74451;
+  color:#fff;
+  text-shadow:none!important
+}
+
+#featured
+{
+  background:#fff;
+  margin-bottom:2em;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  padding-top:15px;
+  padding-bottom:15px
+}
+
+#featured h2
+{
+  color:#C74451;
+  font-size:1.714em;
+  margin-bottom:.333em
+}
+
+#featured h3
+{
+  font-size:1.429em;
+  margin-bottom:.5em
+}
+
+#featured h3 a:link,#featured h3 a:visited
+{
+  color:#000305;
+  text-decoration:none
+}
+
+#featured h3 a:hover,#featured h3 a:active
+{
+  color:#fff
+}
+
+.entry-title
+{
+  margin-top:0
+}
+
+.entry-title a:link,.entry-title a:visited
+{
+  text-decoration:none
+}
+
+#posts-list
+{
+  list-style:none;
+  margin:0;
+  padding:0
+}
+
+#posts-list article
+{
+  padding-top:15px;
+  padding-bottom:15px;
+  background:#fff
+}
+
+#posts-list li:first-child article
+{
+  border-top-left-radius:10px;
+  -moz-border-top-left-radius:10px;
+  -webkit-border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  -moz-border-top-right-radius:10px;
+  -webkit-border-top-right-radius:10px
+}
+
+#posts-list li:last-child article
+{
+  border-bottom-left-radius:10px;
+  -moz-border-bottom-left-radius:10px;
+  -webkit-border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  -moz-border-bottom-right-radius:10px;
+  -webkit-border-bottom-right-radius:10px
+}
+
+#posts-list .hentry:hover
+{
+  background:#C64350;
+  color:#fff
+}
+
+#posts-list .hentry:hover a:link,#posts-list .hentry:hover a:visited
+{
+  color:#F6CF74;
+  text-shadow:1px 1px 1px #333
+}
+
+#extras h2
+{
+  color:#C74350;
+  font-size:1.429em;
+  margin-bottom:.25em;
+  padding:0 3px
+}
+
+#extras ul
+{
+  list-style:none;
+  padding:0
+}
+
+#extras a:link,#extras a:visited
+{
+  color:#444;
+  display:block;
+  border-bottom:1px solid #F4E3E3;
+  text-decoration:none;
+  padding:.3em .25em
+}
+
+#extras a:hover,#extras a:active
+{
+  color:#fff
+}
+
+#contentinfo
+{
+  background:#fff;
+  margin-bottom:2em;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  padding-top:15px;
+  padding-bottom:15px
+}
+
+#about .url:link,#about .url:visited
+{
+  text-decoration:none
+}
